@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesF.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Django</h2>
+        <nav class="navigation">
+            <div class="m12">
+                <span class="person1"><ion-icon name="person"></ion-icon></span>
+            </div>
+            <div class="m12">
+                <label for="check" class="checkbox">
+                    <ion-icon name="menu"></ion-icon>
+                </label>
+                <div class="box2">
+                    <span class="icon-close1"><ion-icon name="close-circle"></ion-icon></span>
+                </div>
+            </div>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="btnLogin-popup">
+                <p> Login</p>
+
+            </button>
+
+        </nav>
+    </header>
+    <div class="backg">
+
+        <section>
+            <div class="wrapper">
+                <span class="icon-close"><ion-icon name="close-circle"></ion-icon></span>
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form action="">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label for="">password</label>
+                        </div>
+                        <div class="remember-forget">
+                            <label for="">
+                                <input type="checkbox"> remember me
+                            </label>
+                            <a href="#">Forget Password?</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <button type="submit" class="btn mart">Login with Google </button>
+                        <div class="login-register">
+                            <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-box Register">
+                    <h2>Register</h2>
+                    <form action="">
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label for="">Username</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label for="">password</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                            <input type="password" required>
+                            <label for="">Confirm password</label>
+                        </div>
+                        <div class="remember-forget">
+                            <label for="">
+                                <input type="checkbox"> I agree to the term & conditions
+                            </label>
+                        </div>
+                        <button type="submit" class="btn">Register</button>
+                        <div class="login-register">
+                            <p>ALready have an account? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section>
+        <div class="container"></div>
+        <div class="col-lg-12"></div>
+        <div class="hero">
+            <div class="pic">
+                <img src="pexels-hormel-2762247.jpg" alt="new">
+            </div>
+            <h1 class="Name">Chair white</h1>
+            <p class="price">price</p>
+            <button>Booked</button>
+
+            <div class="overlay">
+                <h6>Chair best</h6>
+                <button>BOOK</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
